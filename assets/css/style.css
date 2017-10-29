@@ -29,6 +29,7 @@ nav{
 
 ul {
     list-style-type: none;
+    float: right;
     margin: 0px;
     padding-right: 100px;
     padding-top: 20px;
@@ -37,15 +38,13 @@ ul {
 }
 
 
-li {
-    float: right;
+li {display: inline-block;
     margin-top: 25px;
     font-family: Arial;
     font-size: 20px;
 }
 
 li a {
-    display: inline-block;
     color: gray;
     text-align: center;
     padding: 14px 16px;
@@ -61,7 +60,7 @@ div{
 	overflow:auto;
 	padding: 0px;
 	margin: 0px 0px 0px 10px;
-	}
+}
 
 .content{
 	background:url("../images/intersection.png") repeat 0 0; 
@@ -122,6 +121,8 @@ div{
 	font-size: 10px;
 	text-align: center;
 	margin: 0px 0px 0px 0px;
+	color: white;
+	padding: 25px;
 }
 
 #line{
@@ -191,43 +192,73 @@ form{
 
 }
 
-img{
-	width: 264px;
-	height: 197px;
-	margin-top: 22px;
-	margin-right: 22px;
-}
-
 .imageholder{
-	position: absolute;
 	text-align: center;
-	}
+	display: inline-block;
+	height: 250px;
+	width: 275px;
+}
 
 #imgdiv1{
 	background-image: url("../images/Jumpski.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 177px;
+	width: 264px;
+	
 }
 
-.bottom-left{
-	position: relative;
+#imgdiv2{
+	background-image: url("../images/datawarehouse.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 177px;
+	width: 264px;
+	
+}
+
+#imgdiv3{
+	background-image: url("../images/sharks.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 177px;
+	
+}
+
+#imgdiv4{
+	background-image: url("../images/meditation.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 177px;
+	
+}
+
+#imgdiv5{
+	background-image: url("../images/erd.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 177px;
+	width: 264px;
+}
+
+#imgdiv6{
+	background-image: url("../images/sailing.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 177px;
+	width: 264px;
+}
+
+.img-caption{
 	bottom: 50px;
 	background-color: #4aaaa5;
 	width:264px;
 	height: 30px;
 	text-align: center;
 	padding-top: 7px;
-	margin: 0px;
+	margin: 130px 0px 0px 0px;
 	color:white;
 	}
 
-.bottom-right{
-	position: relative;
-	bottom: 50px;
-	background-color: #4aaaa5;
-	width:264px;
-	height: 30px;
-	text-align: center;
-	padding-top: 7px;
-	right:0px;
-	margin: 0px;
-	color: white;
-	}
+
+
